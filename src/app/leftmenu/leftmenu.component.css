@@ -1,0 +1,38 @@
+.accordion-container{
+  cursor: pointer;
+}
+::ng-deep .panel-default>.panel-heading{
+  background: #2b5fbc;
+  color: #fff;
+}
+::ng-deep .panel-default h4{
+  font-weight: 600;
+}
+::ng-deep .panel-default .panel-title:focus,::ng-deep .panel-default .panel-title a:focus,::ng-deep .panel-default .panel-title a:hover{
+  outline: 0 ;
+  text-decoration: none;
+}
+::ng-deep .panel-open .panel-heading{
+  background: #286090;
+  color: #fff;
+}
+::ng-deep h4.panel-title{
+  position: relative;
+}
+::ng-deep h4.panel-title:after{
+    width: 0px;
+    height: 0px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #fff;
+    content: '';
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    top: 40%;
+}
+::ng-deep .panel-open h4.panel-title:after{
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}

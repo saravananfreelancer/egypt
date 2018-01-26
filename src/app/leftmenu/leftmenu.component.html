@@ -1,0 +1,10 @@
+<div class="accordion-container">
+  <accordion>
+    <accordion-group [heading]="group.heading" *ngFor="let group of groups">
+          <!-- <div *ngFor="let g of group">
+
+          </div> -->
+  {{group.content}}
+    </accordion-group>
+  </accordion>
+</div>

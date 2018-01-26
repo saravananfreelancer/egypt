@@ -1,0 +1,47 @@
+.leftmenu {
+  padding-right: 0;
+  padding-left: 0;
+  height: 100%;
+  background:  #2b5fbc;
+
+}
+
+.help-menu{
+  background: #fff;
+  overflow: hidden;
+  padding-bottom: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+.help-menu ul{
+  float: right;
+  padding-right: 10px;
+}
+.help-menu ul li{
+  float: left;
+  padding-left: 25px;
+}
+.help-menu ul li a{
+  color: #000;
+  text-decoration: none;
+}
+.help-menu ul li a:hover{
+  color: #fff;
+}
+.userdeatils-container{
+  margin-top: 30px;
+}
+.logoicon{
+  text-align: center;
+}
+.userimg{
+  margin-top: 6px;
+}
+.hammer-menu .glyphicon.glyphicon-menu-hamburger{
+  padding: 30px;
+  font-size: 34px;
+  cursor: pointer;
+}
+.wrapper-container,.wrapper-container>.row{
+  height: 100%;
+}
